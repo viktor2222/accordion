@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion {
+  border: 1px solid #d9d9d9;
+  margin-top: 25px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  padding: 12px 24px 15px;
+}
+
+.content {
+  margin-top: 15px;
+  display: none;
+}
+
+.active-accordion .img-plus,
+.img-minus {
+  display: none;
+}
+.active-accordion .img-minus,
+.accordion-text-block {
+  display: block;
+}

@@ -1,6 +1,6 @@
 # Accordion
 
-```
+```js
 let accordion = document.getElementsByClassName("accordion");
 
 for (let i = 0; i < accordion.length; i++) {
@@ -11,5 +11,4 @@ for (let i = 0; i < accordion.length; i++) {
     button.classList.toggle("active-accordion"); //  css class active-accordion
   };
 }
-
 ```
